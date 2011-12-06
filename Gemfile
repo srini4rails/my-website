@@ -7,14 +7,14 @@ gem 'rails', '3.1.1'
 
 source 'http://rubygems.org'
  
-gem 'mysql2'
+gem 'mysql'
 gem 'haml'
 gem 'devise'
 gem 'kaminari'
  
 group :development, :test do
   gem 'capybara'
-  gem 'rspec-rails'
+  #gem 'rspec-rails'
   gem 'haml-rails'
   gem 'hpricot'
   gem 'ruby_parser'
